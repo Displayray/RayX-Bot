@@ -1,0 +1,12 @@
+        const embedpermission = new Discord.MessageEmbed()
+        .setColor("BLUE")
+        .setAuthor(message.author.tag)
+        .setTitle("Unausreichende Berechtigung")
+        .setDescription(`Du bist nicht berechtigt, diesen Befehl auszuführen!`)
+        .setFooter("Mehr Infos dazu bekommst du im Support!")
+
+        const embedfinduser = new Discord.MessageEmbed()
+        .setColor("BLUE")
+        .setAuthor(message.author.tag)
+        .setTitle("Benutzer Erwähnen")
+        .setDescription('__Wie Erwähne ich einen Benutzer:__\n1. @username - Erwähnt einen User in dem du nach seinem Namen suchst\n2. Rechtsklick => @username - Mache einen Rechtsklick auf einen Benutzer und drücke auf "Erwähnung"')
